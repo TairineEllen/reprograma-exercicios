@@ -2,8 +2,8 @@
 
 Exercícios referentes aos assuntos abordados na semana 03:
 
-funções
-loops
-while
-do/while
-for
+- funções
+- loops
+	- while
+	- do/while
+	- for
