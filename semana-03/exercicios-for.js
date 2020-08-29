@@ -179,20 +179,3 @@ function imprimirAsteriscosInverso(num) {
         esp = ''            
     }     
 }
-
-imprimirAsteriscosInverso(10)
-
-function descrescente(num) {
-    let esp = ''
-    let ast = ''
-    for (let i = 0; i < num; i++) {
-        for (let j = num - i; j > i; j--) {
-            esp += ' '
-        }
-        ast += '*'
-        console.log(esp + ast)
-        esp = ''
-    }
-} 
-
-descrescente(5)
