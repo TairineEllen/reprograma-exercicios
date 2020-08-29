@@ -1,3 +1,4 @@
+
 // 1) crie uma função que receba uma string e devolva seu valor em letras maiúsculas, separadas por um espaço. 
 // Exemplo: 'banana' -> 'B A N A N A'
 
@@ -129,7 +130,7 @@ function somaMultiplo(num, mult1, mult2) {
     }
     
     let soma = 0
-    for (i = 0; i <= num; i++) {
+    for (let i = 0; i <= num; i++) {
         if (i % mult1 == 0 || i % mult2 == 0){
             soma += i
         }
@@ -137,7 +138,7 @@ function somaMultiplo(num, mult1, mult2) {
     return soma
 }
 
-console.log(somaMultiplo(30,0,5))
+console.log(somaMultiplo(40,2,4))
 
 // 9) crie uma função que receba um número qualquer devolva o seguinte padrão como resultado (inclusive com os espaços). 
 // Por exemplo, caso receba o número 5 como parâmetro:
@@ -181,3 +182,17 @@ function imprimirAsteriscosInverso(num) {
 
 imprimirAsteriscosInverso(10)
 
+function descrescente(num) {
+    let esp = ''
+    let ast = ''
+    for (let i = 0; i < num; i++) {
+        for (let j = num - i; j > i; j--) {
+            esp += ' '
+        }
+        ast += '*'
+        console.log(esp + ast)
+        esp = ''
+    }
+} 
+
+descrescente(5)
