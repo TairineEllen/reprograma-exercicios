@@ -30,15 +30,12 @@ function divisao(a, b) {
     }
 }
 
-/*
 console.log(soma(2,0))
 console.log(subtracao(2,0))
 console.log(multiplicacao(2,0))
 console.log(multiplicacao(3,2))
 console.log(divisao(9,0))
 console.log(divisao(9,3))
-*/
-
 
 
 // 2) para esse exercício, as funções de multiplicação e divisão não devem aceitar valores iguais a 0 (zero).
@@ -122,7 +119,7 @@ function parametros(a, b, c) {
     if (!b && !c) {
         return a
     } else if (!a || !b || !c) {
-        return a + b || b + c || a + c
+        return a + b ||
     } else if (!a && !b && !c) {
         return 'Não recebeu parâmetros'
     } else{
@@ -130,7 +127,7 @@ function parametros(a, b, c) {
     }
 }
 
-console.log(parametros(4,2,3))
+console.log(parametros(4))
 
 // 8) crie uma função que receba uma string como parâmetro, e retorne essa mesma string invertida. 
 // Por exemplo, recebendo "reprograma", vai retornar "amargorper". 
@@ -166,4 +163,4 @@ function compararCaracteres(texto1, texto2) {
     }
 }
 
-console.log(compararCaracteres('oi', 'gato'))
+console.log(compararCaracteres('oi', 'olar'))
