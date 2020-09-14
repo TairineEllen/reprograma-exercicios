@@ -1,0 +1,76 @@
+[
+    {
+        "titulo": "Olá, adeus e tudo mais",
+        "autoria": "Jennifer E. Smith",
+        "editora": "Galera Record",
+        "paginas": 272
+        
+    },
+    {
+        "titulo": "A mulher na janela",
+        "autoria": "A.J. Finn" ,
+        "editora": "Arqueiro",
+        "paginas": 352
+        
+    },
+    {
+        "titulo": "Asiáticos podres de ricos",
+        "autoria": "Kevin Kwan",
+        "editora": "Record",
+        "paginas": 490
+        
+    },
+    {
+        "titulo": "As peças infernais - Príncipe mecânico",
+        "autoria": "Cassandra Clare",
+        "editora": "Galera Record",
+        "paginas": 406
+        
+    },
+    {
+        "titulo": "O Sol também é uma estrela",
+        "autoria": "Nicola Yoon",
+        "editora": "Arqueiro",
+        "paginas": 288
+        
+    },
+    {
+        "titulo": "Ninguém nasce herói",
+        "autoria": "Eric Novello",
+        "editora": "Seguinte",
+        "paginas": 384
+        
+    },
+    {
+        "titulo": "A cinco passos de você",
+        "autoria": [
+            "Rachael Lippincott",
+            "Mikki Daughtry",
+            "Tobias Iaconis"
+        ] ,
+        "editora": "Globo Alt",
+        "paginas": 288
+        
+    },
+    {
+        "titulo": "As peças infernais - Anjo mecânico",
+        "autoria": "Cassandra Clare",
+        "editora": "Galera Record",
+        "paginas": 392
+        
+    },
+    {
+        "titulo": "Lendo de cabeça para baixo",
+        "autoria": "Jo Platt",
+        "editora": "Fábrica231",
+        "paginas": 288
+        
+    },
+    {
+        "titulo": "Luzes de emergência se acenderão automaticamente",
+        "autoria": "Luisa Geisler",
+        "editora": "Alfaguara",
+        "paginas": 296
+        
+    }
+]

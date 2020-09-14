@@ -1,0 +1,73 @@
+[
+ {
+    "nome": "Friends",
+    "temporadas": 10,
+    "genero": "comédia",
+    "ondeAssistir": "Netflix"
+ },
+ {
+    "nome": "Lost",
+    "temporadas": 6,
+    "genero": [
+        "mistério",
+        "ação",
+        "drama"
+    ],
+    "ondeAssistir": "Claro Video"
+ },
+ {
+    "nome": "Orphan Black",
+    "temporadas": 5,
+    "genero": [
+        "drama",
+        "scifi"
+    ],
+    "ondeAssistir": "Netflix"
+ },
+ {
+    "nome": "RuPaul's Drag Race",
+    "temporadas": 12,
+    "genero": "reality show",
+    "ondeAssistir": "Netflix"
+ },
+ {
+    "nome": "This is Us",
+    "temporadas": 4,
+    "genero": "drama",
+    "ondeAssistir": "Amazon Prime"
+ },
+ {
+    "nome": "The Handmaid's Tale",
+    "temporadas": 3,
+    "genero": "drama",
+    "ondeAssistir": "Globo Play"
+ },
+ {
+    "nome": "Brooklyn Nine-Nine",
+    "temporadas": 7,
+    "genero": "comédia",
+    "ondeAssistir": "Netflix"
+ },
+ {
+    "nome": "Ho to Get Away With Murder",
+    "temporadas": 6,
+    "genero": "drama",
+    "ondeAssistir": "Netflix"
+ },
+ {
+    "nome": "My Brilliant Friend",
+    "temporadas": 2,
+    "genero": "drama",
+    "ondeAssistir": "HBO GO"
+ },
+ {
+    "nome": "Pose",
+    "temporadas": 2,
+    "genero": [
+        "drama",
+        "LGBT+"
+    ],
+    "ondeAssistir": "Netflix"
+ }
+]   
+
