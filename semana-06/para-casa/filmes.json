@@ -1,0 +1,68 @@
+[
+    {
+        "titulo": "Sierra Burgess é uma Loser",
+        "lancamento": 2018,
+        "genero": "comédia"
+    },
+    {
+        "titulo": "A Barraca do Beijo",
+        "lancamento": 2018,
+        "genero": "comédia"
+    },
+    {
+        "titulo": "Todo Dia",
+        "lancamento": 2018,
+        "genero": "romance"
+    },
+    {
+        "titulo": "Todas as Razões Para Esquecer",
+        "lancamento": 2017,
+        "genero": "drama"
+    },
+    {
+        "titulo": "Com Amor, Simon",
+        "lancamento": 2018,
+        "genero": [
+            "romance",
+            "comedia"
+        ]
+    },
+    {
+        "titulo": "A Forma da Água",
+        "lancamento": 2018,
+        "genero": [
+            "drama",
+            "fantasia",
+            "romance"
+        ]
+    },
+    {
+        "titulo": "Antes Que Eu Vá",
+        "lancamento": 2017,
+        "genero": "drama"
+    },
+    {
+        "titulo": "Três Anúncios Para Um Crime",
+        "lancamento": 2017,
+        "genero": [
+            "drama",
+            "policial"
+        ]
+    },
+    {
+        "titulo": "Me Chame Pelo Seu Nome",
+        "lancamento": 2017,
+        "genero": [
+            "drama",
+            "romance"
+        ]
+    },
+    {
+        "titulo": "Corra!",
+        "lancamento": 2017,
+        "genero": [
+            "mistério",
+            "suspense"
+        ]
+    }
+]
