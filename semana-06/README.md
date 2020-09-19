@@ -10,8 +10,8 @@
 3. Filmes
 4. Bandas
 5. Shows
-6. Linguagens de programação
+6. Canais de YouTube
 7. Cidades turísticas
 8. Podcasts
-9. Animais
+9. Animais rápidos
 10. Super-heróis

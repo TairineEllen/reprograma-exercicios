@@ -1,35 +1,45 @@
 [
 {
     "banda": "Evanescence",
-    "cidade": "Recife",
-    "estado": "PE",
+    "local": {
+        "cidade": "Recife",
+        "estado": "PE"        
+        },
     "ano": 2012
 },
 {
     "banda": "Imagine Dragons",
-    "cidade": "São Paulo",
-    "estado": "SP",
+    "local": {
+        "cidade": "São Paulo",
+        "estado": "SP"        
+        },
     "ano": 2018
 },
 {
     "banda": "Shawn Mendes", 
-    "cidade": "Rio de Janeiro",
-    "estado": "RJ",
+    "local": {
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"        
+        },
     "ano": 2017
 },
 {
     "banda": "Maroon 5",
-    "cidade": "Rio de Janeiro",
-    "estado": "RJ",
+    "local": {
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"        
+        },
     "ano": 2017
 },
 {
     "banda": "NX Zero",
-    "cidade": [
-        "Iguatu",
-        "Fortaleza"
-    ],
-    "estado": "CE",
+    "local": {
+        "cidade": [
+            "Iguatu",
+            "Fortaleza"
+        ],
+        "estado": "CE"        
+        },
     "ano": [
         2010,
         2017
@@ -37,32 +47,42 @@
 },
 {
     "banda": "The Killers",
-    "cidade": "São Paulo",
-    "estado": "SP",
+    "local": {
+        "cidade": "São Paulo",
+        "estado": "SP"        
+        },
     "ano": 2018
 },
 {
     "banda": "Lana del Rey",
-    "cidade": "São Paulo",
-    "estado": "SP",
+    "local": {
+        "cidade": "São Paulo",
+        "estado": "SP"        
+        },
     "ano": 2018
 },
 {
     "banda": "Francisco, el Hombre",
-    "cidade": "Crato",
-    "estado": "CE",
+    "local": {
+        "cidade": "Crato",
+        "estado": "CE"        
+        },
     "ano": 2017
 },
 {
     "banda": "Duda Beat",
-    "cidade": "Recife",
-    "estado": "PE",
+    "local": {
+        "cidade": "Recife",
+        "estado": "PE"        
+        },
     "ano": 2019
 },
 {
     "banda": "Baiana System",
-    "cidade": "Recife",
-    "estado": "PE",
+    "local": {
+        "cidade": "Recife",
+        "estado": "PE"        
+        },
     "ano": 2019
 }
 ]

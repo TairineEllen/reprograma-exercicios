@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Fortaleza",
+        "estado": "Ceará",
+        "litoral": true,
+        "destaque": "Praia de Iracema"
+    },
+    {
+        "nome": "Blumenau",
+        "estado": "Santa Catarina",
+        "litoral":false,
+        "destaque": "Oktoberfest"
+    },
+    {
+        "nome": "Olinda",
+        "estado": "Pernambuco",
+        "litoral": true,
+        "destaque": "Centro histórico"
+    },
+    {
+        "nome": "Ouro Preto",
+        "estado": "Minas Gerais",
+        "litoral": false,
+        "destaque": "Centro histórico"
+    },
+    {
+        "nome": "Salvador",
+        "estado": "Bahia",
+        "litoral": true,
+        "destaque": "culinária"
+    },
+    {
+        "nome": "Foz do Iguaçu",
+        "estado": "Paraná",
+        "litoral": false,
+        "destaque": "cataratas"
+    },
+    {
+        "nome": "Fernando de Noronha",
+        "estado": "Pernambuco",
+        "litoral": true,
+        "destaque": "santuário ecológico"
+    },
+    {
+        "nome": "João Pessoa",
+        "estado": "Paraíba",
+        "litoral": true,
+        "destaque": "pôr do sol"
+    },
+    {
+        "nome": "Jericoacoara",
+        "estado": "Ceará",
+        "litoral": true,
+        "destaque": "dunas"
+    },
+    {
+        "nome": "Barreirinhas",
+        "estado": "Maranhão",
+        "litoral": false,
+        "destaque": "Lençois maranhenses"
+    }
+]
