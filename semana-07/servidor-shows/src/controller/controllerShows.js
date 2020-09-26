@@ -6,9 +6,8 @@ const getAll = (req, res) => {
 };
 
 const getByYear = (req, res) => {
-    console.log(req.query.ano)
-    console.log(req)
-    res.send(shows.filter((show) => show.ano == req.query.ano));
+    console.log(req.params.ano)
+    res.send(shows.filter((show) => show.ano == req.params.ano));
 }
 
 module.exports = { getAll, getByYear };
