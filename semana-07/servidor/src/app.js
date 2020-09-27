@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-const index = require('../src/routes/index');
-const shows = require('../src/routes/routeShows');
+const index = require('./routes/index');
+const podcasts = require('./routes/routePodcasts');
 
 app.use((req, res, next) => {
     console.log('Nova requisicao realizada');
@@ -10,7 +10,6 @@ app.use((req, res, next) => {
 });
 
 app.use('/', index);
-app.use('/shows', shows);
-
+app.use('/podcasts', podcasts);
 
 module.exports = app;
