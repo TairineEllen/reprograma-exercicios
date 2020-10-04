@@ -1,0 +1,53 @@
+[
+    {
+        "nome": "Imagine Dragons",
+        "pais": "EUA",
+        "albuns": 4
+    },
+    {
+        "nome": "Francisco, el Hombre",
+        "pais": "Brasil",
+        "albuns": 2
+    },
+    {
+        "nome": "OneRepublic",
+        "pais": "EUA",
+        "albuns": 4
+    },
+    {
+        "nome": "The Script",
+        "pais": "Irlanda",
+        "albuns": 6
+    },
+    {
+        "nome": "Of Monsters and Men",
+        "pais": "Islândia",
+        "albuns": 3
+    },
+    {
+        "nome": "Linkin Park",
+        "pais": "EUA",
+        "albuns": 7
+    },
+    {
+        "nome": "NX Zero",
+        "pais": "Brasil",
+        "albuns": 6
+    },
+    {
+        "nome": "Supercombo",
+        "pais": "Brasil",
+        "albuns": 7
+    },
+    {
+        "nome": "Evanescence",
+        "pais": "EUA",
+        "albuns": 5
+    },
+    {
+        "nome": "Braza",
+        "pais": "Brasil",
+        "albuns": 2
+    }
+
+]

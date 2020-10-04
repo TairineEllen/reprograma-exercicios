@@ -1,0 +1,61 @@
+[
+    {
+        "nome": "Budejo",
+        "nicho": [
+            "jornalismo",
+            "análises sociais",
+            "política",
+            "humor"
+        ],
+        "duracaoMedia": "1 hora" 
+
+    },
+    {
+        "nome": "NerdCast - Jovem Nerd",
+        "nicho": "cultura nerd",
+        "duracaoMedia": "90 minutos"
+    },
+    {
+        "nome": "Um Milkshake Chamado Wanda",
+        "nicho": "humor",
+        "duracaoMedia": "2 horas"
+    },
+    {
+        "nome": "Pretinho Básico",
+        "nicho": "humor",
+        "duracaoMedia": "50 minutos"
+    },
+    {
+        "nome": "Filhos da Grávida de Taubaté",
+        "nicho": [
+            "assuntos do momento",
+            "famosos"
+        ],
+        "duracaoMedia": "1 hora"
+    },
+    {
+        "nome": "RapaduraCast",
+        "nicho": "cinema",
+        "duracaoMedia": "2 horas"
+    },
+    {
+        "nome": "Rádio Escafandro",
+        "nicho": "jornalismo",
+        "duracaoMedia": "1 hora"
+    },
+    {
+        "nome": "Confins do Universo",
+        "nicho": "cultura nerd",
+        "duracaoMedia": "2 horas"
+    },
+    {
+        "nome": "Café da Manhã",
+        "nicho": "notícias",
+        "duracaoMedia": "25 minutos"
+    },
+    {
+        "nome": "A Dona do Campinho",
+        "nicho": "esportes",
+        "duracaoMedia": "30"
+    }
+]

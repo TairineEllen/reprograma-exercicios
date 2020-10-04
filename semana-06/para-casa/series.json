@@ -27,7 +27,10 @@
  {
     "nome": "RuPaul's Drag Race",
     "temporadas": 12,
-    "genero": "reality show",
+    "genero": [
+       "reality show",
+       "LGBT+"
+    ],
     "ondeAssistir": "Netflix"
  },
  {
