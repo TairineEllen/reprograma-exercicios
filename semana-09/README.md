@@ -17,6 +17,7 @@ Você foi contratada para fazer a implementação de um sistema de uma livraria 
 	- id
 	- nome
 	- idade
+    - cargo
 
 3 - Nossa livraria gostaria de garantir que será possível a exclusão do registro de determinado livro.
 
