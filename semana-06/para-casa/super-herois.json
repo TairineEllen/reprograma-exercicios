@@ -1,0 +1,165 @@
+[
+    {
+        "nome": "The Flash",
+        "universo": "DC Comics",
+        "pontosFortes": [
+            "atravessar matéria sólida",
+            "reflexos sobre-humanos"
+        ],
+        "pontosFracos": [
+            "não pode voar",
+            "precisa de atrito para se movimentar"
+        ],
+        "equipamentos": "uniforme armazenada em um anel especial"
+    },
+    {
+        "nome": "Homem de Ferro",
+        "universo": "Marvel",
+        "pontosFortes": [
+            "inteligência",
+            "superforça",
+            "controle de satélite"
+        ],
+        "pontosFracos": "precisa do reator",
+        "equipamentos": "armadura"
+    },
+    {
+        "nome": "Thor",
+        "universo": "Marvel",
+        "pontosFortes": [
+            "resistência",
+            "viajar no tempo",
+            "velocidade sobre-humana",
+            "imunidade a doenças"
+        ],
+        "pontosFracos": "torna-se humano se não portar o martelo",
+        "equipamentos": [
+            "martelo",
+            "espada",
+            "machado"
+        ]
+    },
+    {
+        "nome": "Capitã Marvel",
+        "universo": "Marvel",
+        "pontosFortes": [
+            "superforça",
+            "velocidade", 
+            "autocura",
+            "resistência",
+            "voo", 
+            "teletransporte", 
+            "controle sobre as energias estelares",
+            "capacidade de viver no espaço vazio",
+            "invulnerabilidade"],
+        "pontosFracos": "obediência fiel à Inteligência Suprema",
+        "equipamentos": "uniforme"
+    },
+    {
+        "nome": "Hulk",
+        "universo": "Marvel",
+        "pontosFortes": [
+            "resistência",
+            "quase imortal"
+        ],
+        "pontosFracos": "Dr. Banner",
+        "equipamentos": ""
+    },
+    {
+        "nome": "Shazam",
+        "universo": "DC Comics",
+        "pontosFortes": [
+            "clarividência",
+            "conhecimento sobre-humano", 
+            "hipnose", 
+            "onilingue", 
+            "juventude eterna",
+            "superforça",
+            " capacidade de viajar no tempo", 
+            "resistência", 
+            "executar magias e poderes mágicos", 
+            "lançar raios",
+            "curar rápido",
+            "imortalidade"
+        ],
+        "pontosFracos": "seu alter ego Billy",
+        "equipamentos": [
+            "Rocha da Eternidade",
+            "manto mágico"
+        ]
+    },
+    {
+        "nome": "Batman",
+        "universo": "DC Comics",
+        "pontosFortes": [
+            "superinteligência", 
+            "destreza", 
+            "agilidade",
+            "reflexos", 
+            "treinamento marcial" 
+        ],
+        "pontosFracos": "precisa de suas ferramentas tecnológicas",
+        "equipamentos": [
+            "torre de controle (Batcaverna)", 
+            "automóveis",
+            "um cinto polivalente", 
+            "barcos", 
+            "helicópteros", 
+            "armaduras",
+            "capa"
+        ]
+    },
+    {
+        "nome": "Dr. Estranho",
+        "universo": "Marvel",
+        "pontosFortes": [
+            "teletransporte", 
+            "levitação", 
+            "geração e projeção de ilusões", 
+            "capacidade de realizar viagens astrais", 
+            "descargas de energia demoníaca",
+            "invocação de forças das trevas"
+        ],
+        "pontosFracos": "mortalidade",
+        "equipamentos": [
+            "olho de Agamotto",
+            "esfera de Agamotto", 
+            "capa da levitação",
+            "livro de Vishanti"
+        ]
+    },
+    {
+        "nome": "Super-Homem",
+        "universo": "DC Comics",
+        "pontosFortes": [
+            "visão de raio-x", 
+            "superforça", 
+            "supervelocidade ao nível da luz", 
+            "superaudição", 
+            "sopro gelado", 
+            "visão de calor, telescópica, microscópica infravermelha e de espectro magnético", 
+            "cura acelerada", 
+            "longevidade", 
+            "campos de força", 
+            "voo infinito",
+            "invulnerabilidade quase total"
+        ],
+        "pontosFracos": "kryptonita",
+        "equipamentos": ""
+    },
+    {
+        "nome": "Raio Negro",
+        "universo": "Marvel",
+        "pontosFortes": [
+            "superforça", 
+            "resistência", 
+            "durabilidade", 
+            "sentidos e reflexos sobre-humanos"
+        ],
+        "pontosFracos": "seus poderem dependem da antena que carrega",
+        "equipamentos": [
+            "uniforme",
+            "antena"
+        ]
+    }
+]

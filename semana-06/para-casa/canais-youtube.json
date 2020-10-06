@@ -1,0 +1,52 @@
+[
+    {
+        "nome": "Kondzilla",
+        "milhoesDeInscritos": 59,
+        "categoria": "música"
+    },
+    {
+        "nome": "Whindersson Nunes",
+        "milhoesDeInscritos": 40,
+        "categoria": "comédia"
+    },
+    {
+        "nome": "Felipe Neto",
+        "milhoesDeInscritos": 38.9,
+        "categoria": "entretenimento"
+    },
+    {
+        "nome": "Você Sabia?",
+        "milhoesDeInscritos": 35.8,
+        "categoria": "entretenimento"
+    },
+    {
+        "nome": "Luccas Neto",
+        "milhoesDeInscritos": 31.4,
+        "categoria": "entretenimento"
+    },
+    {
+        "nome": "GR6 Explode",
+        "milhoesDeInscritos": 30,
+        "categoria": "música"
+    },
+    {
+        "nome": "Rezende Evil",
+        "milhoesDeInscritos": 27.5,
+        "categoria": "entretenimento"
+    },
+    {
+        "nome": "Galinha Pintadinha",
+        "milhoesDeInscritos": 23.2,
+        "categoria": "infantil"
+    },
+    {
+        "nome": "Maria Clara & JP",
+        "milhoesDeInscritos": 20.9,
+        "categoria": "infantil"
+    },
+    {
+        "nome": "Valentina Pontes",
+        "milhoesDeInscritos": 20,
+        "categoria": "infantil"
+    }
+]

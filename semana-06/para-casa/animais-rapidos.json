@@ -1,0 +1,52 @@
+[
+    {
+        "nome": "falcão-peregrino",
+        "tipo": "voador",
+        "velocidade": "360 km/h"
+    },
+    {
+        "nome": "chita",
+        "tipo": "terrestre",
+        "velocidade": "115 km/h"
+    },
+    {
+        "nome": "agulhão-vela",
+        "tipo": "aquático",
+        "velocidade": "110 km/h"
+    },
+    {
+        "nome": "besouro-tigre",
+        "tipo": "inseto",
+        "velocidade": "2,5 m/s"
+    },
+    {
+        "nome": "tubarão-mako",
+        "tipo": "aquático",
+        "velocidade": "124 km/h"
+    },
+    {
+        "nome": "colibri",
+        "tipo": "voador",
+        "velocidade": "100 km/h"
+    },
+    {
+        "nome": "peixe-espada",
+        "tipo": "aquático",
+        "velocidade": "100 km/h"
+    },
+    {
+        "nome": "tigre siberiano",
+        "tipo": "terrestre",
+        "velocidade": "90 km/h"
+    },
+    {
+        "nome": "avestruz",
+        "tipo": "ave",
+        "velocidade": "70 km/h"
+    },
+    {
+        "nome": "libélula",
+        "tipo": "inseto",
+        "velocidade": "7 m/s"
+    }
+]
