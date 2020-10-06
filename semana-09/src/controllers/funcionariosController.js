@@ -1,6 +1,10 @@
 const employees = require('../models/funcionarios.json');
 const fs = require('fs');
 
+const getAllEmployees = (req, res) => {
+    res.send(employees);
+};
+
 const postEmployee = (req, res) => {
     const { id, nome, idade, cargo } = req.body;
     employees.push({id, nome, idade, cargo});
@@ -29,7 +33,8 @@ const deleteEmployee = (req, res) => {
     res.send(employees);
 };
 
-module.exports = { 
+module.exports = {
+    getAllEmployees, 
     postEmployee,
     deleteEmployee 
 };

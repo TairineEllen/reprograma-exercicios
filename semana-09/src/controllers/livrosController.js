@@ -1,6 +1,15 @@
 const books = require('../models/livros.json');
 const fs = require('fs');
 
+const getAllBooks = (req, res) => {
+    res.send(books);
+};
+
+const getAllBooksInStock = (req, res) => {
+    const booksInStock = books.filter((book) => book.emEstoque)
+    res.send(booksInStock);
+};
+
 const postBook = (req, res) => {
     const { id, titulo, autoria, editora, emEstoque } = req.body;
     books.push({id, titulo, autoria, editora, emEstoque});
@@ -29,7 +38,9 @@ const deleteBook = (req, res) => {
     res.send(books);
 };
 
-module.exports = { 
+module.exports = {
+    getAllBooks,
+    getAllBooksInStock, 
     postBook,
     deleteBook
 };
