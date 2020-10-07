@@ -5,6 +5,16 @@ const getAllEmployees = (req, res) => {
     res.send(employees);
 };
 
+const getAgeEmployeeByID = (req, res) => {
+    const id = req.params.id;
+    const funcionario = employees.find((funcionario) => funcionario.id == id);
+
+    res.send({
+        nome: funcionario.nome,
+        idade: funcionario.idade
+    });
+};
+
 const postEmployee = (req, res) => {
     const { id, nome, idade, cargo } = req.body;
     employees.push({id, nome, idade, cargo});
@@ -34,7 +44,8 @@ const deleteEmployee = (req, res) => {
 };
 
 module.exports = {
-    getAllEmployees, 
+    getAllEmployees,
+    getAgeEmployeeByID, 
     postEmployee,
     deleteEmployee 
 };
