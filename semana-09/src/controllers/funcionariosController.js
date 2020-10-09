@@ -8,16 +8,19 @@ const getAllEmployees = (req, res) => {
 const getAgeEmployeeByID = (req, res) => {
     const id = req.params.id;
     const funcionario = employees.find((funcionario) => funcionario.id == id);
-
+    const data = funcionario.dataDeNascimento.split('/');
+    const age = parseInt(2020) - parseInt(data[2]);
+    
     res.send({
         nome: funcionario.nome,
-        idade: funcionario.idade
+        idade: age
     });
 };
 
 const postEmployee = (req, res) => {
-    const { id, nome, idade, cargo } = req.body;
-    employees.push({id, nome, idade, cargo});
+    const id = employees.length + 1;
+    const { nome, dataDeNascimento, cargo } = req.body;
+    employees.push({id, nome, dataDeNascimento, cargo});
 
     fs.writeFile('./src/models/funcionarios.json', JSON.stringify(employees), 'utf-8', function(err) {
         if (err) {
@@ -30,7 +33,7 @@ const postEmployee = (req, res) => {
 
 const deleteEmployee = (req, res) => {
     const id = req.params.id;
-    const deletedEmployee = employees.find((employee) => employees.id == id);
+    const deletedEmployee = employees.find((employee) => employee.id == id);
     const index = employees.indexOf(deletedEmployee);
     employees.splice(index, 1);
 
