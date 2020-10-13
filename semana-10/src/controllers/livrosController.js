@@ -32,7 +32,7 @@ const getBooksByPublisher = (req, res) => {
 };
 
 const postBook = (req, res) => {
-    const id = employees.length + 1;
+    const id = books.length + 1;
     const { titulo, autoria, editora, emEstoque } = req.body;
     books.push({id, titulo, autoria, editora, emEstoque});
 
