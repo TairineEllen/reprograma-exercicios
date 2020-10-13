@@ -46,9 +46,33 @@ const deleteEmployee = (req, res) => {
     res.send(employees);
 };
 
+const updateEmployeeWithPut = (req, res) => {
+    const id = req.params.id;
+
+    try {
+        const updatedInfos = req.body;
+        const employeeToBeUpdated = employees.find((employee) => employee.id == id);
+        const index = employees.indexOf(employeeToBeUpdated);
+
+        employees.splice(index, 1, updatedInfos);
+
+        fs.writeFile('./src/models/funcionarios.json', JSON.stringify(employees), 'utf-8', function(err) {
+            if (err) {
+                return res.status(424).send({ message: err });
+            };
+        });
+       
+        res.status(200).send(employees);
+
+    } catch (err) {
+        return res.status(424).send({ message: err });
+    };
+};
+
 module.exports = {
     getAllEmployees,
     getAgeEmployeeByID, 
     postEmployee,
-    deleteEmployee 
+    deleteEmployee,
+    updateEmployeeWithPut 
 };

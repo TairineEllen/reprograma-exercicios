@@ -6,5 +6,6 @@ route.get('/', controller.getAllEmployees);
 route.get('/:id', controller.getAgeEmployeeByID);
 route.post('/', controller.postEmployee);
 route.delete('/:id', controller.deleteEmployee);
+route.put('/:id', controller.updateEmployeeWithPut);
 
 module.exports = route;
