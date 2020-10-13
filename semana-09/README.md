@@ -1,4 +1,4 @@
-# Semana 06 - API - POST - DELETE
+# Semana 09 - API - POST - DELETE
 
 Você foi contratada para fazer a implementação de um sistema de uma livraria no centro de Recife.
 
