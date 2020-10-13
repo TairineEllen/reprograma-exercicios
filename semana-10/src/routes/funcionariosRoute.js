@@ -7,5 +7,6 @@ route.get('/:id', controller.getAgeEmployeeByID);
 route.post('/', controller.postEmployee);
 route.delete('/:id', controller.deleteEmployee);
 route.put('/:id', controller.updateEmployeeWithPut);
+route.patch('/:id', controller.updateEmployeeWithPatch);
 
 module.exports = route;
