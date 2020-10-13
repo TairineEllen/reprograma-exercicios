@@ -83,11 +83,35 @@ const updateBookWithPut = (req, res) => {
     };
 };
 
+const updatedBookWithPatch = (req, res) => {
+    const id = req.params.id;
+
+    try {
+        const updatedInfos = req.body;
+        const bookToBeUpdated = books.find((book) => book.id == id);
+
+        Object.keys(updatedInfos).forEach((key) => {
+            bookToBeUpdated[key] = updatedInfos[key];
+        });
+
+        fs.writeFile('./src/models/livros.json', JSON.stringify(books), 'utf-8', function(err) {
+            if (err) {
+                return res.status(424).send({ message: err });
+            };
+        });
+        res.status(200).send(books);
+
+    } catch (err) {
+        return res.status(424).send({ message: err });
+    };
+};
+
 module.exports = {
     getAllBooks,
     getAllBooksInStock,
     getBooksByPublisher, 
     postBook,
     deleteBook,
-    updateBookWithPut
+    updateBookWithPut,
+    updatedBookWithPatch
 };

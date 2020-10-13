@@ -8,5 +8,6 @@ route.get('/editoras', controller.getBooksByPublisher);
 route.post('/', controller.postBook);
 route.delete('/:id', controller.deleteBook);
 route.put('/:id', controller.updateBookWithPut);
+route.patch('/:id', controller.updatedBookWithPatch);
 
 module.exports = route;
