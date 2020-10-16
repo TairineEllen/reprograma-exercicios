@@ -18,10 +18,11 @@ const getAgeEmployeeByID = (req, res) => {
 };
 
 const postEmployee = (req, res) => {
-    const id = employees.length + 1;
-    const { nome, dataDeNascimento, cargo } = req.body;
-    employees.push({id, nome, dataDeNascimento, cargo});
-
+    const id = employees[employees.length - 1].id + 1;
+    const employee = req.body
+    const newEmployee = ({id, ...employee});
+    employees.push(newEmployee);
+    
     fs.writeFile('./src/models/funcionarios.json', JSON.stringify(employees), 'utf-8', function(err) {
         if (err) {
             return res.status(404).send({message: err});
@@ -64,7 +65,7 @@ const updateEmployeeWithPut = (req, res) => {
        
         res.status(200).send(employees);
 
-    } catch (err) {
+    } catch(err) {
         return res.status(424).send({ message: err });
     };
 };
@@ -87,7 +88,7 @@ const updateEmployeeWithPatch = (req, res) => {
         });
         res.status(200).send(employees);
 
-    } catch (err) {
+    } catch(err) {
         return res.status(424).send({ message: err });
     };
 };

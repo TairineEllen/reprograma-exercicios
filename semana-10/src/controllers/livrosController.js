@@ -32,7 +32,7 @@ const getBooksByPublisher = (req, res) => {
 };
 
 const postBook = (req, res) => {
-    const id = books.length + 1;
+    const id = books[books.length - 1].id + 1;
     const { titulo, autoria, editora, emEstoque } = req.body;
     books.push({id, titulo, autoria, editora, emEstoque});
 
@@ -78,7 +78,7 @@ const updateBookWithPut = (req, res) => {
        
         res.status(200).send(books);
 
-    } catch (err) {
+    } catch(err) {
         return res.status(424).send({ message: err });
     };
 };
@@ -101,7 +101,7 @@ const updatedBookWithPatch = (req, res) => {
         });
         res.status(200).send(books);
 
-    } catch (err) {
+    } catch(err) {
         return res.status(424).send({ message: err });
     };
 };
