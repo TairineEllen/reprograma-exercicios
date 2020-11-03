@@ -18,12 +18,19 @@ const getCompradores = (req, res) => {
 };
 
 const getByCpf = (req, res) => {
-  console.log("getByCpf");
-  res.status(200).send("ok");
+  const cpf = req.params.cpf;
+  clientes.find({ cpf }, (err, cliente) => {
+    if (err) {
+      res.status(424).send({ message: err.message });
+    } else if (cliente.length > 0) {
+      res.status(200).send(cliente);
+    } else {
+      res.status(404).send('Cliente não encontrado');
+    };
+  });
 };
 
 const postCliente = (req, res) => {
-
   let cliente = new clientes(req.body);
   cliente.save(err => {
     err ? res.status(424).send({ message: err.message })
@@ -39,4 +46,4 @@ module.exports = {
   getCompradores,
   getByCpf,
   postCliente
-}
+};
