@@ -1,8 +1,9 @@
 const clientes = require('../models/clientes');
 
 const getAll = (req, res) => {
-  console.log("getAll");
-  res.status(200).send("ok");
+  clientes.find((err, clientes) => {
+    err ? res.status(424).send({ message: err.message }) : res.status(200).send(clientes);
+  });
 };
 
 const getCompradores = (req, res) => {
