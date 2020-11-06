@@ -7,13 +7,8 @@ const getAll = (req, res) => {
 };
 
 const getCompradores = (req, res) => {
-  clientes.find({ comprou: true }, (err, clientes) => {
-    err ? res.status(424).send({ message: err.message })
-      : res.status(200).send(clientes.map(cliente => ({
-        nome: cliente.nome,
-        email: cliente.email
-      }))
-      );
+  clientes.find({ comprou: true }, {nome: 1, email: 1, _id: 0}, (err, clientes) => {
+    err ? res.status(424).send({ message: err.message }) : res.status(200).send(clientes);   
   });
 };
 
